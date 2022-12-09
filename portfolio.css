@@ -126,6 +126,18 @@ footer {
     animation: moveNav 5s; /* This applies the moveNav animation for all other browsers */
 }
 
+#cn {
+    
+    color: white;
+}
+
+#cn a:hover{
+    background-color: black; /* Defines the background color that will display when you hover over the link */
+    color: black; /* This defines the font color that will display when navbar a elements are hovered over */
+    font-weight: bold;
+    transition: .5s ease-in;
+}
+
 /* moveNav animation effect for moving the nav bar in from the left of the screen */
 @keyframes moveNav {
     from {left: -100vw;} /* The navbar is starting off screen to the left */
@@ -180,7 +192,7 @@ footer {
 
 /***** VIDEO STYLING *****/
 /* Formatting for background video */
-#Homevid {
+#video1 {
     position: fixed; /* This fixes the video to the page */
     right: 0; /* This ensures there is no space between the edge of the video and the edge of the page */
     top: 0;
@@ -191,7 +203,7 @@ footer {
 
 /* Screens that are 576px and smaller will not display the background video */
 @media screen and (max-width: 576px) {
-    #Typing_Video {
+    #video1 {
         display: none;
     }
 }

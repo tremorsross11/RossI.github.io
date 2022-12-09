@@ -11,13 +11,13 @@
     <!--navbar-->
     <body class="background">
         <div class="Navbar">
-            <a class="active" href="#video-text">Home</a>
+            <a class="active" href="#homep">Home</a>
             <!-- New section added -->
             <a href="#Slideshow">Slideshow</a>
             <a href="#About">About</a>
             <a href="#GitHub">GitHub</a>
             <!-- Onclick and ondblclick functions added to open and close the contact form -->
-            <a onclick="openForm()" ondblclick="closeForm()" class="contact">Contact</a>
+            <a onclick="openForm()" ondblclick="closeForm()" class="contact" id="cn" style="color: grey;">Contact</a>
         </div>
         <!--end navbar-->
         
@@ -25,14 +25,14 @@
         <!--Home Video-->
         <br>
         <br>
-        <div id="Homevid">
+        <div id="Home">
             <video autoplay muted loop id="video1">
                 <source src="./img/video.mp4" type="video/mp4">
                 Video wont display properly on browser
             </video>
         </div>
         <!--end home video-->
-        <div class="video-text">
+        <div class="video-text" id="homep">
             <h1>Ross Iverson's Portfolio</h1>
             <strong>
                 <p class="center">
@@ -125,7 +125,7 @@
         </div>
 
         <!--GitHub section-->
-        <div class="Row" id="Github">
+        <div class="Row" id="GitHub">
             <!--Left column-->
             <div class="Column_1">
                 <h1 style="color:black">GitHub</h1>
