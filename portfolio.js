@@ -1,22 +1,22 @@
-// These functions open and close the contact form
+// Opens form
 function openForm() {
     document.getElementById("myForm").style.display = "block";
 }
-
+//Closes form
 function closeForm() {
     document.getElementById("myForm").style.display = "none";
 }
 
-// This function displays the first image in the slideshow when the page loads
+//Displays first image in slideshow 
 var slideIndex = 1;
 showSlides(slideIndex);
 
-// This function changes the slide when the left or right arrows are clicked
+//Changes the slide when the left or right arrows are clicked
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
-// This function changes the slide when the dots are clicked
+//Changes the slide when the dots are clicked
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
