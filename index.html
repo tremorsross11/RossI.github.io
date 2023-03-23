@@ -20,8 +20,6 @@
             <a onclick="openForm()" ondblclick="closeForm()" class="contact" id="cn" style="color: rgb(187, 180, 180);">Contact</a>
         </div>
         <!--end navbar-->
-        
-    
         <!--Home Video-->
         <br>
         <br>
@@ -38,9 +36,9 @@
                 <p class="center">
                     <q>It always seems impossible until it is done</q>
                     <br>
-                    <p style="font-style: italic; text-align: center;"> -Nelson Mandela</p>
-                    <br>
-                    <p>Thanks for stopping by my portfolio website! On it you can find information about me as well as my Github profile and a way to contact me. I hope to be working with you soon!</p>
+                <p style="font-style: italic; text-align: center;"> -Nelson Mandela</p>
+                <br>
+                <p>Thanks for stopping by my portfolio website! On it you can find information about me as well as my Github profile and a way to contact me. I hope to be working with you soon!</p>
                 </p>
             </strong>
         </div>
@@ -49,16 +47,17 @@
             <div id="Slideshow_Background">
                 <div id="Slideshow_Container">
                     <div class="mySlides fade" style="display: block;">
-                    <img class="Slideshow_Images" src="./img/Screenshot_20221213_100319_Messages.jpg">
-                    <div class="text">I am available to assist you on your next project!</div>
+                        <img class="Slideshow_Images" src="./img/Screenshot_20221213_100319_Messages.jpg">
+                        <div class="text">I am available to assist you on your next project!</div>
                     </div>
 
                     <div class="mySlides fade" style="display: block;">
-                    <img class="Slideshow_Images" src="./img/HTML_CSS_and_JavaScript.jpeg">
-                    <div class="text">I am a full stack software developer
-                        <br>trained in: 
-                        <br> HTML, CSS, and Javascript,
-                    </div>
+                        <img class="Slideshow_Images" src="./img/HTML_CSS_and_JavaScript.jpeg">
+                        <div class="text">
+                            I am a full stack software developer
+                            <br>trained in:
+                            <br> HTML, CSS, and Javascript,
+                        </div>
                     </div>
 
                     <div class="mySlides fade" style="display: block;">
@@ -81,9 +80,9 @@
                         <div class="text">back end development, databases and SQL.</div>
                     </div>
 
-                
 
-                    <div  class="mySlides fade" style = "display: none;">
+
+                    <div class="mySlides fade" style="display: none;">
                         <img class="Slideshow_Images" src="./img/Coding_1.jpg">
                         <div class="text">
                             <a class="white-text contact" onclick="openForm()">Contact me now!</a>
@@ -95,8 +94,8 @@
                     <a class="Next" onclick="plusSlides(1)">&#x3e;</a>
                 </div>
                 <br>
-                    <!--Space between Slideshow images and the dots-->
-                    <!--Slideshow dots-->
+                <!--Space between Slideshow images and the dots-->
+                <!--Slideshow dots-->
                 <div style="text-align: center">
                     <span class="dot active" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
@@ -104,7 +103,7 @@
                     <span class="dot" onclick="currentSlide(4)"></span>
                     <span class="dot" onclick="currentSlide(5)"></span>
                     <span class="dot" onclick="currentSlide(6)"></span>
-                
+
                 </div>
             </div>
         </div>
@@ -118,16 +117,57 @@
             </div>
             <!--Right column-->
             <div class="Column_1">
-                <h1 style="color:black">About</h1><br>
-                <p style="font-size: 18px; text-align: center;">
-                    I am a software developer who loves to code! I enjoy time with my family and friends as well as the outdoors. 
-                    
-                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
-                    
+                <h1 style="color:black">About</h1>
+                <p style="font-size: 18px; text-align: center; margin-top: 1px;">
+                    I am a software developer who loves to code! I enjoy time with my family and friends as well as the outdoors.
+
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more.
+
                     <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
                 </p>
             </div>
         </div>
+        <!--End About Section-->
+
+        <!--C# project-->
+        <div class="Row" id="csharp">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1 style="color:black">C# Project</h1>
+                <p style="text-align: center;">
+                    <br>
+                    Here is a project for an actual client located in Portland, Oregon. Myself and a team of developers were tasked with creating a website for them and I got tasked with creating a comment page.
+                    <br>
+                    The comment page has like/dislike, reply, edit, and delete functionality. The code was written in C# and can be found on my github profile.
+                
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <img src="./img/vortex.png" alt="Replace with your own image and description">
+            </div>
+        </div>
+        <!--End C# Project-->
+        
+        <!--Python Project-->
+        <div class="Row" id="project">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./img/MoviePickers.png" alt="Replace with your own image and description">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1 style="color:black">Python Project</h1>
+                <p style="font-size: 18px; text-align: center; margin-top: 1px;">
+                    Here is a picture of a team python project where I created an app for reviewing movies. I created a form submission which sends input to a database and displays the form on another page of the website.
+
+                    <br>This project was very fun to work on. My team had daily standup meetings and we used SCRUM methodology to make development faster.
+
+                    <br>The code I wrote for this can be found on my github profile under the MovieReviewSite repository.
+                </p>
+            </div>
+        </div>
+        <!--End Python Project-->
+
 
         <!--GitHub section-->
         <div class="Row" id="GitHub">
@@ -136,10 +176,11 @@
                 <h1 style="color:black">GitHub</h1>
                 <p style="text-align: center;">
                     <br>
+                    There are many projects and programs that I have worked on and created on my Github. 
                     <br>
                     You can view my coding projects on my GitHub profile here:
                     <br>
-                    <p class="center"><a href="https://github.com/tremorsross11" target="_blank">My GitHub Profile</a></p>
+                <p class="center"><a href="https://github.com/tremorsross11" target="_blank">My GitHub Profile</a></p>
                 </p>
             </div>
             <!--Right column-->
@@ -152,31 +193,32 @@
         <div id="Contact">
             <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
             <div class="form-popup" id="myForm" ondblclick="closeForm()">
-                 <form action="https://formspree.io/info@learncodinganywhere.com" method="POST" class="form-container"> <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
-                     <h1>Contact</h1>
-                     <label for="name"><b>Name</b></label>
-                       <input type="text" placeholder="Type your name here" name="name" required>
-                     <label for="phone"><b>Phone</b></label>
-                       <input type="text" placeholder="Type your phone number here" name="phone">
-                     <label for="email"><b>Email</b></label>		
-                       <input type="text" placeholder="Type your email address here" name="email" required>
-                     <label for="message"><b>Message</b></label>
-                       <input type="text" placeholder="Type your message here" name="message">
-          
-                     <button type="submit" class="btn">SUBMIT</button>
-                     <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
-                 </form>
+                <form action="https://formspree.io/info@learncodinganywhere.com" method="POST" class="form-container">
+                    <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
+                    <h1>Contact</h1>
+                    <label for="name"><b>Name</b></label>
+                    <input type="text" placeholder="Type your name here" name="name" required>
+                    <label for="phone"><b>Phone</b></label>
+                    <input type="text" placeholder="Type your phone number here" name="phone">
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Type your email address here" name="email" required>
+                    <label for="message"><b>Message</b></label>
+                    <input type="text" placeholder="Type your message here" name="message">
+
+                    <button type="submit" class="btn">SUBMIT</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+                </form>
             </div>
-         </div>
+        </div>
 
         <!--Footer section-->
         <footer>
             <p>
-                <p class="center">&copy Ross Iverson, 2022</p>
-                <br>
+            <p class="center">&copy Ross Iverson, 2022</p>
+            <br>
             </p>
         </footer>
-        
+
     </body>
 </html>
 
